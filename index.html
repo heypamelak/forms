@@ -5,14 +5,16 @@
     <title>Javascript Intro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src='scripts/app.js'></script>
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   </head>
   <body>
 
-    <div class="container">
+    <div class="container" id='app'>
       <div class="row">
             <div class="col s3">
               <p>Welcome!</p>
@@ -28,6 +30,66 @@
             </div>
       </div>
 
+      <!-- Question 1 -->
+      <div class='row' id='first-step'>
+        <h5>Question 1: Are you a cat or a unicorn?</h5>
+         <div class='col s6'>
+           <p>Choice 1: I'm a cat.</p>
+           <a class="waves-effect waves-light btn" id='choice-one'>Click</a>
+         </div>
+
+         <div class='col s6'>
+           <p>Choice 2: I wanna be a unicorn!</p>
+           <a class="waves-effect waves-light btn" id='choice-two'>Click</a>
+         </div>
+       </div>
+
+       <!-- Question 2 -->
+       <div class='row' id='second-step'>
+        <h5>Question 2: Where are you?</h5>
+          <div class='col s6'>
+            <p>Choice 1: You were escaping from a warm, fuzzy blanket, hungry for tuna.</p>
+            <a class="waves-effect waves-light btn" id='choice-three'>Click</a>
+          </div>
+
+          <div class='col s6'>
+            <p>Choice 2: You were flying through fluffy clouds, squealing with glee.</p>
+            <a class="waves-effect waves-light btn" id='choice-four'>Click</a>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class='row' id='third-step'>
+        <h5>Question 3: What are you doing?</h5>
+           <div class='col s6'>
+             <p>Choice 1: Destroyed all the furniture you encountered.</p>
+             <a class="waves-effect waves-light btn" id='choice-five'>Click</a>
+           </div>
+
+           <div class='col s6'>
+             <p>Choice 2: Peed rainbows on everyone’s lawn.</p>
+             <a class="waves-effect waves-light btn" id='choice-six'>Click</a>
+           </div>
+         </div>
+
+         <!-- Question 4 -->
+         <div class='row' id='fourth-step'>
+        <h5>Question 4: Oh wow. How did you make up for that?</h5>
+            <div class='col s6'>
+              <p>Choice 1: You let everyone pet your beautiful coat and fall asleep next to you.</p>
+              <a class="waves-effect waves-light btn" id='choice-seven'>Click</a>
+            </div>
+
+            <div class='col s6'>
+              <p>Choice 2: You planted perennial Skittles&#8482; trees in everyone’s yard.</p>
+              <a class="waves-effect waves-light btn" id='choice-eight'>Click</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
 
     </div>
 
